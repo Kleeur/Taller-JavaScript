@@ -13,5 +13,5 @@ function button() {
       var answer = "No, you don't live in Cartago";
       boolean = answer;
    }
-   $("#xd").append("Your name is: " + name + "." + "<br>" + "Your document type is: " + documenttype + "." + "<br>" + "Your document number is: " + identif + "." + "<br>" + "Your gender is: " + gendertype + "." + "<br>" + "Your height is: " + height + "." + "<br>" + boolean);
+   $("#xd").html("Your name is: " + name + "." + "<br>" + "Your document type is: " + documenttype + "." + "<br>" + "Your document number is: " + identif + "." + "<br>" + "Your gender is: " + gendertype + "." + "<br>" + "Your height is: " + height + "." + "<br>" + boolean);
 }
